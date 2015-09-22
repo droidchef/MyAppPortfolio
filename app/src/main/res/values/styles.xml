@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="UdacityButton">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    <style name="UdacityButton.Red" parent="UdacityButton">
+        <item name="android:background">@color/material_red</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="UdacityButton.Orange" parent="UdacityButton">
+        <item name="android:background">@color/material_orange</item>
+    </style>
+
+</resources>
